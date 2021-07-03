@@ -1,7 +1,2 @@
 # TapHero
 
-## Introduction
-
-## Technologies
-
-# Launch
