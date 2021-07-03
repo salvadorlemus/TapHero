@@ -1,9 +1,9 @@
 # Table of contents
-*[General info](#general-info)
-*[Technologies](#technologies)
-[Setup](#setup)
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
-## Generel info
+## General info
 This project is intended to be an update on TapHero, and also learn some Git console.
 
 ## Technologies
