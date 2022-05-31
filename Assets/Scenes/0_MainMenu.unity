@@ -238,7 +238,6 @@ GameObject:
   - component: {fileID: 220727624}
   - component: {fileID: 220727623}
   - component: {fileID: 220727622}
-  - component: {fileID: 220727625}
   m_Layer: 5
   m_Name: Panel_ButtonsContainer
   m_TagString: Untagged
@@ -290,7 +289,7 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 250, y: 250}
+  m_CellSize: {x: 500, y: 500}
   m_Spacing: {x: 100, y: 100}
   m_Constraint: 1
   m_ConstraintCount: 2
@@ -332,23 +331,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 220727620}
   m_CullTransparentMesh: 1
---- !u!114 &220727625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 220727620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 423195f455ffe114398356fff3b629c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _ButtonsRectTransform:
-  - {fileID: 577977510}
-  - {fileID: 1116347775}
-  - {fileID: 432873128}
-  - {fileID: 1473904759}
 --- !u!1 &381215391
 GameObject:
   m_ObjectHideFlags: 0
@@ -1095,7 +1077,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Wild pixel
+  m_text: Pixel west
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7cbe281f4873c0a48a2ffdae258a3520, type: 2}
   m_sharedMaterial: {fileID: 267556328837306294, guid: 7cbe281f4873c0a48a2ffdae258a3520, type: 2}
@@ -1122,7 +1104,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 67.45
+  m_fontSize: 72
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1257,7 +1239,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40.05
+  m_fontSize: 72
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1487,7 +1469,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pixelated Fire
+  m_text: Pixel Fire
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7cbe281f4873c0a48a2ffdae258a3520, type: 2}
   m_sharedMaterial: {fileID: 267556328837306294, guid: 7cbe281f4873c0a48a2ffdae258a3520, type: 2}
@@ -1514,7 +1496,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.1
+  m_fontSize: 72
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1889,7 +1871,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50.55
+  m_fontSize: 72
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
